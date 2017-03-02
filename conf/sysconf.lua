@@ -13,10 +13,10 @@ local _M =  {
 _M.__REBATE_HTTP_KID__ = ""
 
 _M._REDIS_CONF = {
-    ["host"] = "10.125.31.111",
+    ["host"] = "ip address",
     ["port"] = 6379,
     ["timeout"] = 3000,
-    ["password"] = "gome123456"
+    ["password"] = "password"
 }
 
 _M._KID_CONF = {
@@ -25,11 +25,11 @@ _M._KID_CONF = {
     ["fail_queue_key"] = "fail:kid"
 }
 _M._MYSQL_CONF_ = {
-    ["host"] = "10.125.2.9",
+    ["host"] = "ip addresss",
     ["port"] = 3306,
-    ["database"] = "rebate",
-    ["user"] = "admin_develop",
-    ["password"] = "admin6E85E1357Adev"
+    ["database"] = "database",
+    ["user"] = "user",
+    ["password"] = "pwd"
 }
 _M._REDIS_BLACK_IP_CONF_ = {
     ["black_prefix"] = "rebate:kid:black:prefix:",
